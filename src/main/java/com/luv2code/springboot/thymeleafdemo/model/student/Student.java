@@ -1,4 +1,4 @@
-package com.luv2code.springboot.thymeleafdemo.model;
+package com.luv2code.springboot.thymeleafdemo.model.student;
 
 import java.util.List;
 

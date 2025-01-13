@@ -1,6 +1,6 @@
-package com.luv2code.springboot.thymeleafdemo.controller;
+package com.luv2code.springboot.thymeleafdemo.controller.student;
 
-import com.luv2code.springboot.thymeleafdemo.model.Student;
+import com.luv2code.springboot.thymeleafdemo.model.student.Student;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,4 @@
-package com.luv2code.springboot.thymeleafdemo.controller;
+package com.luv2code.springboot.thymeleafdemo.controller.demo;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
