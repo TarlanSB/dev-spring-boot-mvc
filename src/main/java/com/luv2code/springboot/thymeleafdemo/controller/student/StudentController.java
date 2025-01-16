@@ -40,7 +40,7 @@ public class StudentController {
         // add the list of systems to the model
         theModel.addAttribute("systems", systems);
 
-        return "student-form";
+        return "student/student-form";
     }
 
     @PostMapping("/processStudentForm")
@@ -49,6 +49,6 @@ public class StudentController {
         // log the input data
         System.out.println("theStudent: " + theStudent.getFirstName() + " " + theStudent.getLastName());
 
-        return "student-confirmation";
+        return "student/student-confirmation";
     }
 }
